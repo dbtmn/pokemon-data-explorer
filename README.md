@@ -1,5 +1,7 @@
 # Implementation of a Pokémon Data Explorer application by Dila Ongun
 
+It is live [here](https://pokemon-data-explorer.vercel.app/)!
+
 This app is created via [Create React App](https://create-react-app.dev/).
 Searches Pokémons and allows to see details of a Pokémon.
 
