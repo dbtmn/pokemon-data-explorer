@@ -1,0 +1,19 @@
+@use "../../scss/colors" as *;
+
+.table {
+    &__image {
+        width: 32px;
+        aspect-ratio: 1/1;
+    }
+
+    [class*='MuiTableCell-head'] {
+        background-color: $color-bright-yellow;
+        color: $color-main-blue;
+        font-weight: 700;
+    }
+
+    &__cell[class*='MuiTableCell'] {
+        padding: 0.132vw 16px;
+        cursor: pointer;
+    }
+}

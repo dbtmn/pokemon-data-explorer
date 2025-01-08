@@ -1,0 +1,29 @@
+:root {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@font-face {
+  font-family: "PocketMonk";
+  src: url(assets/fonts/PocketMonk-15ze.ttf);
+}
+
+@font-face {
+  font-family: "PokemonGb";
+  src: url(assets/fonts/PokemonGb-RAeo.ttf);
+}
+
+@font-face {
+  font-family: "Pixels";
+  src: url(assets/fonts/PokemonPixels1-jYmj.ttf);
+}

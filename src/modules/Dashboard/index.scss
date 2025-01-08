@@ -1,0 +1,22 @@
+.dashboard {
+    &__banner {
+        &_wrapper {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        & {
+            width: 25%;
+            height: auto;
+        }
+    }
+
+    &__searchbox {
+        justify-content: center;
+    }
+
+    &__data {
+        display: flex;
+    }
+}

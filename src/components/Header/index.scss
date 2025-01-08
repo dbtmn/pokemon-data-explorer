@@ -1,0 +1,16 @@
+@use "../../scss/colors" as *;
+
+.header {
+    &__wrapper {
+        display: flex;
+        margin-bottom: 1vh;
+        align-items: center;
+        font-family: 'PokemonGb';
+    }
+
+    @media (max-width: 1080px) {
+        &__icon {
+            font-size: unset;
+        }
+    }
+}

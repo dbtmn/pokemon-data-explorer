@@ -1,0 +1,27 @@
+@use "../../scss/colors" as *;
+
+.filters {
+    $padding: 1.058vw;
+    width: 30%;
+
+    &__title {
+        font-family: 'PokemonGb';
+        margin-bottom: $padding;
+        color: $color-main-blue;
+    }
+
+    &__table_outer {
+        border-radius: 8px;
+        background-color: white;
+        padding: $padding;
+    }
+
+    &__table {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.1vw;
+        max-height: 12vw;
+        padding: calc($padding / 2);
+        overflow-y: auto;
+    }
+}

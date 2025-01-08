@@ -1,0 +1,31 @@
+@use "../../scss/colors" as *;
+
+.poke-detail {
+    &__back {
+        border: unset;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.587vw;
+
+        &-icon {
+            color: $color-red;
+            font-size: 2vw;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__section {
+        padding: 2vw;
+        margin-bottom: 3vh;
+        background-color: $color-white;
+    }
+
+    @media (max-width: 1080px) {
+        &__back-icon {
+            font-size: unset;
+        }
+    }
+}
